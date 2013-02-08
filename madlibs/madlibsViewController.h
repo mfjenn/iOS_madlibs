@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface madlibsViewController : UIViewController
+@interface madlibsViewController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *textField1;
 @property (weak, nonatomic) IBOutlet UITextField *textField2;
